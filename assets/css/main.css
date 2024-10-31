@@ -3909,7 +3909,7 @@ input, select, textarea {
 		}
 
 		.image img {
-            max-width: 100%;
+            max-width: auto;
             height: auto;
             padding: 10px;
             box-sizing: border-box;
@@ -3924,3 +3924,8 @@ input, select, textarea {
             font-size: 1.8em; /* Adjust this value as needed */
         }
         
+		.ima img {
+			width: 400px; /* Set your desired width */
+			height: 400px; /* Set your desired height */
+			object-fit: cover; /* Ensures the image fills the container without distortion */
+		  }
